@@ -17,7 +17,7 @@ angular.module('starter.controllers', [])
 
 
   //tiwtter
-
+/*
 var twitterKey = 'STORAGE.TWITTER.KEY';
 var clientId = '  QNqP86q0MaElglAsUrI2YXrxs'; //costumer key
 var clientSecret = 'u2FKQOV3oP8FPToqsbGLuZlO8GNLGbg1mqrR8T8CHiwAHZH1VE';
@@ -64,7 +64,7 @@ $scope.doRefresh = function() {
 $scope.correctTimestring = function(string) {
   return new Date(Date.parse(string));
 };
-
+*/
 
 
   //emd twiteer
