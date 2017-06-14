@@ -17,7 +17,9 @@ angular.module('starter.controllers', [])
 
 
   //tiwtter
-/*
+
+
+
 var twitterKey = 'STORAGE.TWITTER.KEY';
 var clientId = '  QNqP86q0MaElglAsUrI2YXrxs'; //costumer key
 var clientSecret = 'u2FKQOV3oP8FPToqsbGLuZlO8GNLGbg1mqrR8T8CHiwAHZH1VE';
@@ -25,7 +27,7 @@ var myToken = '874409263573213184-8amwM3KbHp7VM0lUNZ7qxCKbDKFZXwo';
  
 $scope.tweet = {};
  
-$ionicPlatform.ready(function() {
+
   myToken = JSON.parse(window.localStorage.getItem(twitterKey));
   if (myToken === '' || myToken === null) {
     $cordovaOauth.twitter(clientId, clientSecret).then(function (succ) {
@@ -40,7 +42,10 @@ $ionicPlatform.ready(function() {
     $twitterApi.configure(clientId, clientSecret, myToken);
     $scope.showHomeTimeline();
   }
-});
+
+
+
+//emd twitter
 
 
 
@@ -64,7 +69,7 @@ $scope.doRefresh = function() {
 $scope.correctTimestring = function(string) {
   return new Date(Date.parse(string));
 };
-*/
+
 
 
   //emd twiteer
