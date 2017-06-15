@@ -12,8 +12,8 @@ angular.module('starter', ['ionic',
                           , 'monospaced.elastic'
                           , 'ksSwiper'
                           , 'ionic.contrib.ui.tinderCards2'
-                          , 'ngTwitter'
-                          , 'ngCordova', 'ngCordovaOauth'
+                          , 'ngResource', 'ngCordova', 'ngCordovaOauth', 'ngTwitter'
+                          
               ])
 
 .run(function($ionicPlatform) {
