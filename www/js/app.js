@@ -12,7 +12,7 @@ angular.module('starter', ['ionic',
                           , 'monospaced.elastic'
                           , 'ksSwiper'
                           , 'ionic.contrib.ui.tinderCards2'
-                          , 'ngResource', 'ngCordova', 'ngCordovaOauth', 'ngTwitter'
+                          , 'ngCordova', 'ngtweet'
                           
               ])
 
